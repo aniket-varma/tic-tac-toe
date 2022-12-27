@@ -1,0 +1,17 @@
+.Resetbtn{
+    border:none;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 5px #888;
+    background-color: rgb(0,110,255);
+    font-family: "Fredoka",sans-serif;
+    font-weight: 400;
+    color: #efefef;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 2rem auto;
+    display: block;
+}
+
+.Resetbtn:hover{
+    box-shadow: 0px 0px 15px #888;
+}
