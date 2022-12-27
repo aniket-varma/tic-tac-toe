@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is a two player game developed using React.
+
+## Deployment
+Link: https://sprightly-malasada-f42527.netlify.app/
 
 ## Available Scripts
 
