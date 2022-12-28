@@ -24,7 +24,7 @@ function App() {
     setBoard(Array(9).fill(null));
     setxPlaying(true);
     setgameOver(false);
-    setMessage('');
+    setMessage("");
     setWon(-1);
   }
   const [board,setBoard]=useState(Array(9).fill(null));
@@ -57,14 +57,14 @@ function App() {
       }
       setTimeout(()=>clearBoard(),2000)
     }
-    setBoard(update);
-    if(checkFilled(update)){
+    else if(checkFilled(update)){
       setMessage('Match Draw!!!')
       setWon(-1);
       setgameOver(true);
       setTimeout(()=>clearBoard(),2000)
     }
     else setxPlaying(!xPlaying);
+    setBoard(update);
   }
   const checkWinner = (board) => {
     for( let i = 0; i < winConditions.length; i++){
